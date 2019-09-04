@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -ex
+
+brew update
+brew install Formula/eat.rb
+eat --help | grep 'usage: eat'
